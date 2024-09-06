@@ -64,6 +64,7 @@ async def on_message(msg : discord.Message):
 				with open("people/police.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
+				await put_channel.send(file = discord.File("people/police.png"));
 				with open("linelock/star.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
@@ -77,6 +78,7 @@ async def on_message(msg : discord.Message):
 				with open("people/villager.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
+				await put_channel.send(file = discord.File("people/villager.png"));
 				with open("linelock/shake_salt.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
@@ -84,16 +86,19 @@ async def on_message(msg : discord.Message):
 				with open("people/desciple.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
+				await put_channel.send(file = discord.File("people/desciple.jpg"));
 				with open("linelock/server.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
 				with open("linelock/AC.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
+				await put_channel.send(file = discord.File("linelock/genshin.png"));
 			elif cls == 4:
 				with open("people/ghost.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
+				await put_channel.send(file = discord.File("people/ghost.jpg"));
 				with open("linelock/dead_body.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
@@ -143,6 +148,7 @@ async def on_message(msg : discord.Message):
 				with open("people/doctor.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
+				await put_channel.send(file = discord.File("people/doctor.png"));
 				with open("linelock/puzzle.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
