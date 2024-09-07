@@ -65,6 +65,7 @@ async def on_message(msg : discord.Message):
 					file_content = file.read()
 				await put_channel.send(file_content);
 				await put_channel.send(file = discord.File("people/police.png"));
+				await put_channel.send(file = discord.File("linelock/star.jpg"));
 				with open("linelock/star.txt", 'r') as file:
 					file_content = file.read()
 				await put_channel.send(file_content);
